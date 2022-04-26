@@ -10,7 +10,6 @@ const headerElem = document.querySelector(".header");
 mobile_nav.addEventListener("click", () => {
   headerElem.classList.toggle("active");
 });
-
 // ========================================
 // creating a sticky responsive navbar component
 // ========================================
@@ -35,7 +34,7 @@ observer.observe(heroSection);
 // swiper js code
 
 new Swiper(".mySwiper", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   autoplay: {
     delay: 2500,
@@ -55,7 +54,7 @@ const myJsmedia = (widthSize) => {
     });
   } else {
     new Swiper(".mySwiper", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     });
   }
