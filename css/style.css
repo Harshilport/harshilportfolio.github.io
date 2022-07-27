@@ -406,32 +406,53 @@ porfolio Section Start
 
 .hide{
   display: none;
+  position: relative;
+  overflow: hidden;
 }
 .hide2{
   display: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .hide3{
   display: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .hide4{
   display: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .hide5{
   display: none;
+  position: relative;
+  overflow: hidden;
 }
 
+.hide {
+  display: none;
+}
+.hide2 {
+  display: none;
+}
+
+.hide3 {
+  display: none;
+}
+
+.hide4 {
+  display: none;
+}
 
 .showthis{
-  display: contents;
+  display: block;  
 }
 
-#showmore{
-  display: flex;
-  justify-content: center;
-}
+
 
 .p-btns {
   display: flex;
