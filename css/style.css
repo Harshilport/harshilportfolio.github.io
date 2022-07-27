@@ -10,21 +10,21 @@
 
 :root {
   --heading: rgb(0 10 45);
-  --para: #777;
+  --para: rgb(41, 40, 40);
   --para-tint: #e4e4e4;
   --white: #fff;
   --black: #212529;
-  --helper: #8490ff;
-  --overlay: #3e64ff;
+  --helper: #ec4b81;
+  --overlay: #f93eff;
   --helper-tint: #f3f4ff;
   --bg: rgb(249 249 255);
-  --icons-bg: rgba(144, 172, 209, 0.2);
-  --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+  --icons-bg: rgba(96, 165, 255, 0.2);
+  --gradient: linear-gradient(0deg, rgb(248, 114, 114) 0%, rgb(226, 98, 252) 100%);
   --gradientSupport: -webkit-linear-gradient(0deg,
-      rgb(132 144 255) 0%,
-      rgb(98 189 252) 100%);
+      #e684ff 0%,
+      #e262fc 100%);
   --shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
-  --shadowSupport: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+  --shadowSupport: 0px 20px 20px 0px rgba(167, 173, 223, 0.3);
 }
 
 html {
@@ -77,7 +77,7 @@ Header Section Start
 .header {
   padding: 0 4.8rem;
   height: 10rem;
-  background-color: var(--bg);
+  background-color: #ec4b8117;
   /* background: red; */
   display: flex;
   justify-content: space-between;
@@ -117,7 +117,7 @@ Header Section Start
   left: 0;
   width: 100%;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffdae7;
   padding-top: 0;
   padding-bottom: 0;
   box-shadow: var(--shadow);
@@ -181,6 +181,7 @@ Resuable Code Section
   display: inline-block;
   text-transform: uppercase;
   font-size: 1.8rem;
+  border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -234,7 +235,7 @@ hero Section Start
 ======================================= */
 
 .section-hero {
-  background-color: var(--bg);
+  background-color: #ec4b811c;
 }
 
 .section-hero-data {
@@ -280,7 +281,9 @@ picture {
 /* ===========================================
 BIO Section Start
 ======================================= */
-
+.section-biodata{
+  background: #ec4b812f;
+}
 .bio-image {
   display: flex;
   justify-content: center;
@@ -289,7 +292,7 @@ BIO Section Start
 
 .bio-image img {
   width: 80%;
-  box-shadow: -2rem -2rem 0 0 var(--helper);
+  box-shadow: -2rem  2rem 0 0 var(--helper);
   display: inline-block;
 }
 
@@ -390,12 +393,44 @@ BIO Section Start
 porfolio Section Start
 ======================================= */
 .section-portfolio {
-  background: var(--bg);
+  background: #f93eff1a;
   transition: all 0.7s linear;
 }
 
 .section-portfolio p {
   max-width: 60rem;
+}
+.removethisbitch{
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+.hide2{
+  display: none;
+}
+
+.hide3{
+  display: none;
+}
+
+.hide4{
+  display: none;
+}
+
+.hide5{
+  display: none;
+}
+
+
+.showthis{
+  display: contents;
+}
+
+#showmore{
+  display: flex;
+  justify-content: center;
 }
 
 .p-btns {
@@ -417,6 +452,7 @@ porfolio Section Start
   border-radius: 7px;
   position: relative;
   overflow: hidden;
+  border: 1px solid var(--helper);
 }
 
 .img-overlay {
@@ -430,7 +466,7 @@ porfolio Section Start
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--gradientSupport);
+  background: var(--helper);
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -448,7 +484,7 @@ porfolio Section Start
 
 .img-overlay .common-heading {
   margin: 0;
-  color: var(--white);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -466,30 +502,10 @@ work data Section Start
 ======================================= */
 
 .section-work-data {
-  background: var(--gradientSupport);
   text-align: center;
   transition: all 0.7s linear;
   color: var(--white);
-}
-
-.counter-numbers {
-  font-size: 4.8rem;
-}
-
-.section-work-data p {
-  color: var(--white);
-  text-transform: capitalize;
-}
-
-/* ===========================================
-work data Section Start
-======================================= */
-
-.section-work-data {
-  background: var(--gradientSupport);
-  text-align: center;
-  transition: all 0.7s linear;
-  color: var(--white);
+  height: 40rem;
 }
 
 .counter-numbers {
@@ -520,6 +536,7 @@ our services Section Start
 .service-box {
   text-align: center;
   box-shadow: var(--shadow);
+  background: #ec4b813b;
   border-radius: 5px;
   padding: 6.4rem 3.4rem;
   transition: all 0.2s linear;
@@ -581,7 +598,7 @@ our REsume Section Start
 ======================================= */
 
 .section-resume {
-  background: var(--bg);
+  background: #ec4b8127;
   transition: all 0.7s linear;
 }
 
@@ -752,7 +769,9 @@ Freelancing Section Start
 /* contact Section Start */
 /* ======================================= */ 
 
-
+.section-contact{
+  background: #f93eff1a;
+}
 .section-contact-main {
   max-width: 70rem;
   margin: 0 auto;
@@ -790,17 +809,17 @@ Footer Section Start
 ======================================= */
 
 .section-footer {
-  background: var(--heading);
+  background: #ec4b8127;
   transition: all 0.7s linear;
 }
 
 .section-footer h3 {
-  color: var(--white);
+  color: var(--heading);
   margin-bottom: 4rem;
 }
 
 .f-about p {
-  color: #adadad;
+  color: var(--heading);
 }
 
 .f-links ul,
@@ -817,7 +836,7 @@ Footer Section Start
 .f-services li,
 .f-services a {
   font-size: 1.8rem;
-  color: #adadad;
+  color: var(--heading);
   text-transform: capitalize;
 }
 
@@ -830,19 +849,19 @@ Footer Section Start
 .f-address p,
 .f-address p a {
   font-style: normal;
-  color: #adadad;
+  color: var(--heading);
 }
 
 .f-social-icons {
   margin: 5rem 0;
   text-align: center;
-  color: #adadad;
+  color: var(--heading);
 }
 
 .f-social-icons .icons {
   width: 4rem;
   height: 4rem;
-  background-color: var(--icons-bg);
+  background-color: var(--helper);
   display: inline-block;
   padding: 1.4rem 1.8rem;
   position: relative;
@@ -853,7 +872,7 @@ Footer Section Start
 
 .f-credits p {
   text-align: center;
-  color: #adadad;
+  color: var(--heading);
 }
 
 .footer a:hover,
@@ -879,7 +898,8 @@ Scroll Section Start
   display: inline-block;
   padding: 1.4rem 1.8rem;
   position: relative;
-  border-radius: 100%;
+  border-radius: 6rem;
+  animation: water-wave 5s linear infinite;
   color: var(--white);
   cursor: pointer;
 }

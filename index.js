@@ -10,6 +10,29 @@ const headerElem = document.querySelector(".header");
 mobile_nav.addEventListener("click", () => {
   headerElem.classList.toggle("active");
 });
+
+const hider = document.querySelector(".hide")
+const hider2 = document.querySelector(".hide2")
+const hider3 = document.querySelector(".hide3")
+const hider4 = document.querySelector(".hide4")
+const hider5 = document.querySelector(".hide5")
+const btntochange = document.querySelector(".shobtn")
+const hidethisbtn = document.querySelector(".hidebtn")
+
+btntochange.addEventListener("click", () => {
+  hider.classList.add("showthis")
+  hider2.classList.add("showthis")
+  hider3.classList.add("showthis")
+  hider4.classList.add("showthis")
+  hider5.classList.add("showthis")
+})
+hidethisbtn.addEventListener("click", () => {
+  hider.classList.remove("showthis")
+  hider2.classList.remove("showthis")
+  hider3.classList.remove("showthis")
+  hider4.classList.remove("showthis")
+  hider5.classList.remove("showthis")
+})
 // ========================================
 // creating a sticky responsive navbar component
 // ========================================
@@ -29,6 +52,9 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(heroSection);
+
+
+
 
 
 // swiper js code
@@ -140,3 +166,5 @@ const workObserver = new IntersectionObserver(
 );
 
 workObserver.observe(workSection);
+
+console.clear();
