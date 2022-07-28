@@ -448,6 +448,10 @@ porfolio Section Start
   display: none;
 }
 
+.hide5 {
+  display: none;
+}
+
 .showthis{
   display: block;  
 }
