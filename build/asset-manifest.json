@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f62b436d.css",
+    "main.js": "/static/js/main.22509ee7.js",
+    "static/js/787.2af39c6f.chunk.js": "/static/js/787.2af39c6f.chunk.js",
+    "static/media/pehla.jpg": "/static/media/pehla.68f94a958d6d418a2568.jpg",
+    "static/media/laptop.png": "/static/media/laptop.f057e0522fa5aef90623.png",
+    "static/media/onmy.jpg": "/static/media/onmy.72b8fcd6f5f43829d588.jpg",
+    "static/media/mqdefault.webp": "/static/media/mqdefault.52eace33ecde546e515f.webp",
+    "static/media/pirates.jpg": "/static/media/pirates.4293c9883e271b402510.jpg",
+    "static/media/coffin.jpg": "/static/media/coffin.27b3419d891f54ea82a4.jpg",
+    "static/media/aedil.webp": "/static/media/aedil.45590abdc3580f286556.webp",
+    "static/media/6-min.webp": "/static/media/6-min.950737195af92f50c509.webp",
+    "static/media/5-min.webp": "/static/media/5-min.f5315a18713830396eb7.webp",
+    "static/media/fur.webp": "/static/media/fur.35d8f35bac9017319dba.webp",
+    "static/media/logo-compressed.webp": "/static/media/logo-compressed.781c61bfd6e4e69b823d.webp",
+    "index.html": "/index.html",
+    "main.f62b436d.css.map": "/static/css/main.f62b436d.css.map",
+    "main.22509ee7.js.map": "/static/js/main.22509ee7.js.map",
+    "787.2af39c6f.chunk.js.map": "/static/js/787.2af39c6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f62b436d.css",
+    "static/js/main.22509ee7.js"
+  ]
+}
